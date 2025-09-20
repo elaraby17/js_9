@@ -312,3 +312,8 @@ function removeShowPopup() {
     popup.classList.remove("show");
     popupContainer.classList.remove("show");
 }
+const minui = document.querySelector(".minu");
+const categ = document.querySelector(".products-header-categories");
+minui.addEventListener("click", () => {
+    categ.classList.toggle("none");
+});
